@@ -1,0 +1,20 @@
+
+
+
+</script>
+    
+<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="jquery.mask.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $("#n1").mask('#.##0,00',{reverse:true})
+      
+
+      
+      
+    });
+
+</script>
+
+
