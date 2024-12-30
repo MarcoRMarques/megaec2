@@ -1,2 +1,5 @@
 pagina para cálculo de simulação de taxas específo 
-projeto teste para MegaEc
+para empresa MegaPay
+
+Desenvolvido por MRM desenvolvimento
+Java + Html
