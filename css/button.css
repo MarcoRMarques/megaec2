@@ -1,0 +1,57 @@
+
+button {
+
+    display: inline;
+    margin-right: 10;
+    margin-left: 10;
+    width:"80px";
+    height:"60px";
+    padding: 15px 33px;
+    background-color:#f38630;
+    border-radius:10px ;    
+    font-family: inherit ;
+    color: rgb(255,255, 255);
+    size: 60px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    
+    
+}
+
+button:hover:not(.limpar-button) { background-color: #21d51b; transition: 0.7s; }
+ /* adicionado :hover */
+.active-button {
+    background-color: #21d51b !important; /* Mesmo estilo do :hover */
+}
+
+ @media (max-width: 768px) { 
+    
+    body {
+      padding: 10px;
+     } 
+     
+     main { 
+        width: 100%; padding: 10px;
+     } 
+     header, footer { 
+        padding: 10px 0; 
+    }
+
+}
+
+     @media (max-width: 480px)
+      {
+         main {
+            
+            padding: 5px; } header, footer { padding: 5px 0; 
+        } 
+    
+    }
+
+  
+
+
+
+    
+
